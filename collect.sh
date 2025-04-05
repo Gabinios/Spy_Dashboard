@@ -6,6 +6,6 @@ price=$(echo "$page" | grep -oP '"lastPrice":\K[0-9.]+' | head -1)
 
 timestamp=$(date '+%Y-%m-%d %H:%M:%S')
 
-echo "$timestamp,$price" >> /home/gabin/Scrap/spy_data.csv
+echo "$timestamp,$price" >> /home/gabin/Projet/spy_data.csv
 
-echo "$(date) - Prix SPY = $price" >> /home/gabin/Scrap/spy_cron_debug.log
+echo "$(date) - Prix SPY = $price" >> /home/gabin/Projet/spy_cron_debug.log
