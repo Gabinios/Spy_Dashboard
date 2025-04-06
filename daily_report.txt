@@ -1,0 +1,6 @@
+ Rapport du 2025-04-06
+🟢 Ouverture : 505.28
+🔴 Clôture  : 505.28
+ Plus haut : 505.28
+ Plus bas  : 505.28
+📊 Volatilité (écart-type) : nan
